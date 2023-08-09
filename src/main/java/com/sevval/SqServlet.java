@@ -11,13 +11,13 @@ import javax.servlet.http.HttpServletResponse;
 public class SqServlet extends HttpServlet{
 	public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
 		
-//		int k=(int)req.getAttribute("k");
-//		k=k*k;
-//		
-//		PrintWriter out=res.getWriter();
-//		out.println("result:"+k);
+		int k=(int)req.getAttribute("k");
+		k=k*k;
+		
+		PrintWriter out=res.getWriter();
+		out.println("result:"+k);
 	
-		System.out.println("sq called");//syso ctrl+tab
+		
 	
 	}
 
